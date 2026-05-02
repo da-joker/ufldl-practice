@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-class LinearRegressionGD:
+class LinearRegressionGD:#Class 的核心价值：封装状态 + 隔离实例
     """线性回归 - 梯度下降实现"""
     def __init__(self,learning_rate=0.1,n_iterations=1000):
         self.lr = learning_rate
@@ -61,7 +61,7 @@ print("y形状:",y.shape) # (100,)
 
 # ========== 训练 ==========
 model = LinearRegressionGD(learning_rate=0.1,n_iterations=500)
-model .fit(X,y)
+model .fit(X,y)#实际执行LinearRegressionGD.fit(model, X, y)
 
 print("学习到的参数:", model.theta)
 print("真实参数应该是: [1, 2](截距1,斜率2)")
