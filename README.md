@@ -8,8 +8,7 @@
 - [x] Day 2: 循环判断、函数、类、NumPy基础 ✅
 - [x] Day 3: 线性回归梯度下降实现 ✅
 - [x] Day 4: 梯度下降调参+特征缩放+逻辑回归理论 ✅
-- [ ] Day 5: 手写逻辑回归类（Heart Disease数据集）
-
+- [x] Day 5: 逻辑回归+Heart Disease实战+Sigmoid/交叉熵 ✅
 ## 环境
 
 - Python 3.11
